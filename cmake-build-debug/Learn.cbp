@@ -8,76 +8,80 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="F:/Projects/C++/Learn/cmake-build-debug"/>
+				<Option working_dir="/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="F:/Projects/C++/Learn/cmake-build-debug"/>
+				<Option working_dir="/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Learn">
-				<Option output="F:/Projects/C++/Learn/cmake-build-debug/Learn.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/Projects/C++/Learn/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learn"/>
-					<CompileFile command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Learn/fast">
-				<Option output="F:/Projects/C++/Learn/cmake-build-debug/Learn.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/Projects/C++/Learn/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learn/fast"/>
-					<CompileFile command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="F:/Projects/C++/Learn/cmake-build-debug"/>
+				<Option working_dir="/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw/bin/mingw32-make.exe -f &quot;F:/Projects/C++/Learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BJTU-CProgramming">
+				<Option output="/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/BJTU-CProgramming" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 BJTU-CProgramming"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BJTU-CProgramming/fast">
+				<Option output="/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/BJTU-CProgramming" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 BJTU-CProgramming/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhangrp/CLionProjects/BJTU-CProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/Projects/C++/Learn/main.c">
-			<Option target="Learn"/>
+		<Unit filename="/Users/zhangrp/CLionProjects/BJTU-CProgramming/main.c">
+			<Option target="BJTU-CProgramming"/>
 		</Unit>
-		<Unit filename="F:/Projects/C++/Learn/CMakeLists.txt">
+		<Unit filename="/Users/zhangrp/CLionProjects/BJTU-CProgramming/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

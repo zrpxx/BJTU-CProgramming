@@ -3,4 +3,4 @@ project(Learn C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Learn main.c)
+add_executable(BJTU-CProgramming main.c)
