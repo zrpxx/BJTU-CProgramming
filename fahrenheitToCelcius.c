@@ -10,8 +10,7 @@ int main()
 {
     double temp_F, temp_C;
     scanf("%lf", &temp_F);
-    temp_F -= 32;
-    temp_C = temp_F * 5.0 / 9.0;
+    temp_C = (temp_F - 32) * 5.0 / 9.0;
     printf("%lf华氏度等于%lf摄氏度\n", temp_F, temp_C);
     return 0;
 }

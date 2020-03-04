@@ -1,7 +1,7 @@
 /**
 * @Author Trevor.Z
 * @Date：2020/02/26
-* @Desc:输入三边，输出三角形周长
+* @Desc:输入三边，输出三角形面积
 */
 
 #include <stdio.h>
